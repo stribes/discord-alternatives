@@ -209,76 +209,7 @@
       }
     }
   },
-  {
-    "name": "Yapper",
-    "website": "https://yapper.gg",
-    "license": "Proprietary",
-    "open_source": false,
-    "features": {
-      "privacy": {
-        "encryption": "full",
-        "data_harvesting_risk": "low",
-        "security_history": "good",
-        "kyc_required": "none",
-        "nsfw_support": "full"
-      },
-      "core_chat": {
-        "channels": "advanced",
-        "channel_history": "full",
-        "persistent_channel_order": true,
-        "threads": "basic",
-        "pinned_posts": false,
-        "direct_messages": true,
-        "reactions": false,
-        "embeds": true,
-        "markdown": "basic",
-        "message_editing": false,
-        "search": "basic",
-        "typing_indicators": false
-      },
-      "voice_media": {
-        "voice_calls": true,
-        "video_calls": true,
-        "screen_sharing": true,
-        "streaming": true,
-        "noise_suppression": true,
-        "file_sharing": "full",
-        "soundboard": false
-      },
-      "community": {
-        "bots_plugins": "limited",
-        "plural_kit_support": "none",
-        "custom_emotes": false,
-        "custom_stickers": false,
-        "polls": "none",
-        "events": "basic",
-        "collaboration_tools": "none"
-      },
-      "platform": {
-        "mobile": true,
-        "web": true,
-        "desktop": true
-      },
-      "architecture": {
-        "federation": "none",
-        "self_hosting": "full",
-        "discovery": "advanced",
-        "open_source": false
-      },
-      "adoption": {
-        "userbase": "low",
-        "performance": "high",
-        "market_focus": "mixed",
-        "consumer_relationship": "open"
-      },
-      "safety": {
-        "ai_safety": "yes",
-        "safety_concerns": "high",
-        "transparency": "high"
-      }
-    }
-  },
-  {
+    {
     "name": "Valour",
     "website": "https://valour.gg",
     "repo": "https://github.com/Valour-Software/Valour",
@@ -344,6 +275,75 @@
       "safety": {
         "ai_safety": "unknown",
         "safety_concerns": "low",
+        "transparency": "high"
+      }
+    }
+  },
+  {
+    "name": "Yapper",
+    "website": "https://yapper.gg",
+    "license": "Proprietary",
+    "open_source": false,
+    "features": {
+      "privacy": {
+        "encryption": "full",
+        "data_harvesting_risk": "low",
+        "security_history": "good",
+        "kyc_required": "none",
+        "nsfw_support": "full"
+      },
+      "core_chat": {
+        "channels": "advanced",
+        "channel_history": "full",
+        "persistent_channel_order": true,
+        "threads": "basic",
+        "pinned_posts": false,
+        "direct_messages": true,
+        "reactions": false,
+        "embeds": true,
+        "markdown": "basic",
+        "message_editing": false,
+        "search": "basic",
+        "typing_indicators": false
+      },
+      "voice_media": {
+        "voice_calls": true,
+        "video_calls": true,
+        "screen_sharing": true,
+        "streaming": true,
+        "noise_suppression": true,
+        "file_sharing": "full",
+        "soundboard": false
+      },
+      "community": {
+        "bots_plugins": "limited",
+        "plural_kit_support": "none",
+        "custom_emotes": false,
+        "custom_stickers": false,
+        "polls": "none",
+        "events": "basic",
+        "collaboration_tools": "none"
+      },
+      "platform": {
+        "mobile": true,
+        "web": true,
+        "desktop": true
+      },
+      "architecture": {
+        "federation": "none",
+        "self_hosting": "full",
+        "discovery": "advanced",
+        "open_source": false
+      },
+      "adoption": {
+        "userbase": "low",
+        "performance": "high",
+        "market_focus": "mixed",
+        "consumer_relationship": "open"
+      },
+      "safety": {
+        "ai_safety": "yes",
+        "safety_concerns": "high",
         "transparency": "high"
       }
     }
