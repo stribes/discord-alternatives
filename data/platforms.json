@@ -79,22 +79,22 @@
       "privacy": {
         "encryption": "partial",
         "data_harvesting_risk": "low",
-        "security_history": "unknown",
+        "security_history": "good",
         "kyc_required": "none",
-        "nsfw_support": "unknown"
+        "nsfw_support": "full"
       },
       "core_chat": {
         "channels": "advanced",
         "channel_history": "full",
         "persistent_channel_order": true,
-        "threads": "unknown",
+        "threads": "basic",
         "pinned_posts": true,
         "direct_messages": true,
         "reactions": true,
         "embeds": true,
         "markdown": "advanced",
         "message_editing": true,
-        "search": "unknown",
+        "search": "basic",
         "typing_indicators": true
       },
       "voice_media": {
@@ -108,11 +108,11 @@
       },
       "community": {
         "bots_plugins": "limited",
-        "plural_kit_support": "unknown",
+        "plural_kit_support": "full",
         "custom_emotes": true,
         "custom_stickers": false,
-        "polls": "unknown",
-        "events": "unknown",
+        "polls": "basic",
+        "events": "basic",
         "collaboration_tools": "none"
       },
       "platform": {
@@ -128,14 +128,14 @@
       },
       "adoption": {
         "userbase": "low",
-        "performance": "unknown",
+        "performance": "high",
         "market_focus": "gaming",
         "consumer_relationship": "neutral"
       },
       "safety": {
-        "ai_safety": "unknown",
-        "safety_concerns": "unknown",
-        "transparency": "medium"
+        "ai_safety": "yes",
+        "safety_concerns": "low",
+        "transparency": "high"
       }
     }
   },
