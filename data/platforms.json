@@ -70,6 +70,76 @@
     }
   },
   {
+    "name": "GameVox",
+    "website": "https://gamevox.com",
+    "repo": null,
+    "license": "Proprietary",
+    "open_source": false,
+    "features": {
+      "privacy": {
+        "encryption": "partial",
+        "data_harvesting_risk": "low",
+        "security_history": "unknown",
+        "kyc_required": "none",
+        "nsfw_support": "unknown"
+      },
+      "core_chat": {
+        "channels": "advanced",
+        "channel_history": "full",
+        "persistent_channel_order": true,
+        "threads": "unknown",
+        "pinned_posts": true,
+        "direct_messages": true,
+        "reactions": true,
+        "embeds": true,
+        "markdown": "advanced",
+        "message_editing": true,
+        "search": "unknown",
+        "typing_indicators": true
+      },
+      "voice_media": {
+        "voice_calls": true,
+        "video_calls": true,
+        "screen_sharing": true,
+        "streaming": true,
+        "noise_suppression": true,
+        "file_sharing": "full",
+        "soundboard": true
+      },
+      "community": {
+        "bots_plugins": "limited",
+        "plural_kit_support": "unknown",
+        "custom_emotes": true,
+        "custom_stickers": false,
+        "polls": "unknown",
+        "events": "unknown",
+        "collaboration_tools": "none"
+      },
+      "platform": {
+        "mobile": true,
+        "web": true,
+        "desktop": true
+      },
+      "architecture": {
+        "federation": "none",
+        "self_hosting": "partial",
+        "discovery": "basic",
+        "open_source": false
+      },
+      "adoption": {
+        "userbase": "low",
+        "performance": "unknown",
+        "market_focus": "gaming",
+        "consumer_relationship": "neutral"
+      },
+      "safety": {
+        "ai_safety": "unknown",
+        "safety_concerns": "unknown",
+        "transparency": "medium"
+      }
+    }
+  },
+  {
     "name": "Stoat (Revolt)",
     "website": "https://revolt.chat",
     "repo": "https://github.com/revoltchat",
@@ -205,76 +275,6 @@
         "ai_safety": "yes",
         "safety_concerns": "high",
         "transparency": "high"
-      }
-    }
-  },
-  {
-    "name": "GameVox",
-    "website": "https://gamevox.com",
-    "repo": null,
-    "license": "Proprietary",
-    "open_source": false,
-    "features": {
-      "privacy": {
-        "encryption": "partial",
-        "data_harvesting_risk": "low",
-        "security_history": "unknown",
-        "kyc_required": "none",
-        "nsfw_support": "unknown"
-      },
-      "core_chat": {
-        "channels": "advanced",
-        "channel_history": "full",
-        "persistent_channel_order": true,
-        "threads": "unknown",
-        "pinned_posts": true,
-        "direct_messages": true,
-        "reactions": true,
-        "embeds": true,
-        "markdown": "advanced",
-        "message_editing": true,
-        "search": "unknown",
-        "typing_indicators": true
-      },
-      "voice_media": {
-        "voice_calls": true,
-        "video_calls": true,
-        "screen_sharing": true,
-        "streaming": true,
-        "noise_suppression": true,
-        "file_sharing": "full",
-        "soundboard": true
-      },
-      "community": {
-        "bots_plugins": "limited",
-        "plural_kit_support": "unknown",
-        "custom_emotes": true,
-        "custom_stickers": false,
-        "polls": "unknown",
-        "events": "unknown",
-        "collaboration_tools": "none"
-      },
-      "platform": {
-        "mobile": true,
-        "web": true,
-        "desktop": true
-      },
-      "architecture": {
-        "federation": "none",
-        "self_hosting": "partial",
-        "discovery": "basic",
-        "open_source": false
-      },
-      "adoption": {
-        "userbase": "low",
-        "performance": "unknown",
-        "market_focus": "gaming",
-        "consumer_relationship": "neutral"
-      },
-      "safety": {
-        "ai_safety": "unknown",
-        "safety_concerns": "unknown",
-        "transparency": "medium"
       }
     }
   }
