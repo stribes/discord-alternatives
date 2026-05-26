@@ -1,5 +1,88 @@
 [
   {
+    "name": "Echo",
+    "website": "https://chat-echo.com",
+    "repo": "https://github.com/ad3lre/echo",
+    "license": "AGPL-3.0",
+    "open_source": true,
+    "features": {
+      "privacy": {
+        "encryption": "partial",
+        "data_harvesting_risk": "low",
+        "security_history": "good",
+        "kyc_required": "none",
+        "nsfw_support": "full"
+      },
+      "core_chat": {
+        "channels": "advanced",
+        "channel_history": "full",
+        "persistent_channel_order": true,
+        "threads": "basic",
+        "pinned_posts": "partial",
+        "direct_messages": true,
+        "dm_groups": true,
+        "pings": true,
+        "reactions": true,
+        "embeds": true,
+        "markdown": "advanced",
+        "message_editing": true,
+        "search": "advanced",
+        "typing_indicators": true
+      },
+      "voice_media": {
+        "voice_calls": true,
+        "video_calls": true,
+        "screen_sharing": true,
+        "stage": true,
+        "voice_text_chat": true,
+        "streaming": true,
+        "noise_suppression": true,
+        "file_sharing": "full",
+        "soundboard": false,
+        "activities_games": true,
+        "custom_ringtones": true,
+        "smart_video_loading_hls": true
+      },
+      "community": {
+        "bots_plugins": "partial",
+        "plural_kit_support": "partial",
+        "custom_emotes": true,
+        "custom_stickers": true,
+        "polls": "advanced",
+        "events": "advanced",
+        "collaboration_tools": "basic",
+        "import_from_discord": "full",
+        "discord_bridge_sync": "full",
+        "application_gate": true,
+        "automod": "advanced"
+      },
+      "platform": {
+        "mobile": false,
+        "web": true,
+        "desktop": true,
+        "desktop_app_platform": "tauri",
+        "cross_language_support": "partial"
+      },
+      "architecture": {
+        "federation": "none",
+        "self_hosting": "full",
+        "discovery": "full",
+        "open_source": true
+      },
+      "adoption": {
+        "userbase": "low",
+        "performance": "high",
+        "market_focus": "general",
+        "consumer_relationship": "community-driven"
+      },
+      "safety": {
+        "ai_safety": "yes",
+        "safety_concerns": "low",
+        "transparency": "high"
+      }
+    }
+  },
+  {
     "name": "Spacebar",
     "website": "https://spacebar.chat/",
     "repo": "https://github.com/spacebarchat",
@@ -20,9 +103,11 @@
         "threads": "advanced",
         "pinned_posts": true,
         "direct_messages": true,
+        "dm_groups": true,
+        "pings": true,
         "reactions": true,
         "embeds": true,
-        "markdown": "advanced",
+        "markdown": "basic",
         "message_editing": true,
         "search": "advanced",
         "typing_indicators": true
@@ -31,10 +116,15 @@
         "voice_calls": false,
         "video_calls": false,
         "screen_sharing": false,
+        "stage": false,
+        "voice_text_chat": false,
         "streaming": false,
         "noise_suppression": false,
         "file_sharing": "full",
-        "soundboard": false
+        "soundboard": false,
+        "activities_games": false,
+        "custom_ringtones": false,
+        "smart_video_loading_hls": false
       },
       "community": {
         "bots_plugins": "full",
@@ -43,12 +133,18 @@
         "custom_stickers": true,
         "polls": "none",
         "events": "none",
-        "collaboration_tools": "none"
+        "collaboration_tools": "none",
+        "import_from_discord": "unknown",
+        "discord_bridge_sync": "unknown",
+        "application_gate": false,
+        "automod": "unknown"
       },
       "platform": {
         "mobile": true,
         "web": true,
-        "desktop": true
+        "desktop": true,
+        "desktop_app_platform": "electron",
+        "cross_language_support": "unknown"
       },
       "architecture": {
         "federation": "none",
@@ -90,9 +186,11 @@
         "threads": "basic",
         "pinned_posts": true,
         "direct_messages": true,
+        "dm_groups": true,
+        "pings": true,
         "reactions": true,
         "embeds": true,
-        "markdown": "advanced",
+        "markdown": "basic",
         "message_editing": true,
         "search": "basic",
         "typing_indicators": true
@@ -101,10 +199,15 @@
         "voice_calls": true,
         "video_calls": false,
         "screen_sharing": false,
+        "stage": false,
+        "voice_text_chat": false,
         "streaming": false,
         "noise_suppression": false,
         "file_sharing": "full",
-        "soundboard": false
+        "soundboard": false,
+        "activities_games": false,
+        "custom_ringtones": false,
+        "smart_video_loading_hls": false
       },
       "community": {
         "bots_plugins": "limited",
@@ -113,12 +216,18 @@
         "custom_stickers": true,
         "polls": "basic",
         "events": "basic",
-        "collaboration_tools": "none"
+        "collaboration_tools": "none",
+        "import_from_discord": "unknown",
+        "discord_bridge_sync": "unknown",
+        "application_gate": false,
+        "automod": "unknown"
       },
       "platform": {
         "mobile": true,
         "web": true,
-        "desktop": true
+        "desktop": true,
+        "desktop_app_platform": "electron",
+        "cross_language_support": "unknown"
       },
       "architecture": {
         "federation": "none",

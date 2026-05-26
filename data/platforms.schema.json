@@ -78,9 +78,15 @@
               "enum": ["none", "basic", "advanced", "unknown"]
             },
             "pinned_posts": {
-              "type": "boolean"
+              "enum": [true, false, "partial"]
             },
             "direct_messages": {
+              "type": "boolean"
+            },
+            "dm_groups": {
+              "type": "boolean"
+            },
+            "pings": {
               "type": "boolean"
             },
             "reactions": {
@@ -116,6 +122,12 @@
             "screen_sharing": {
               "type": "boolean"
             },
+            "stage": {
+              "type": "boolean"
+            },
+            "voice_text_chat": {
+              "type": "boolean"
+            },
             "streaming": {
               "type": "boolean"
             },
@@ -126,6 +138,15 @@
               "enum": ["none", "limited", "full", "unknown"]
             },
             "soundboard": {
+              "type": "boolean"
+            },
+            "activities_games": {
+              "type": "boolean"
+            },
+            "custom_ringtones": {
+              "type": "boolean"
+            },
+            "smart_video_loading_hls": {
               "type": "boolean"
             }
           }
@@ -154,6 +175,18 @@
             },
             "collaboration_tools": {
               "enum": ["none", "basic", "advanced", "unknown"]
+            },
+            "import_from_discord": {
+              "enum": ["none", "partial", "full", "unknown"]
+            },
+            "discord_bridge_sync": {
+              "enum": ["none", "partial", "full", "unknown"]
+            },
+            "application_gate": {
+              "type": "boolean"
+            },
+            "automod": {
+              "enum": ["none", "basic", "advanced", "unknown"]
             }
           }
         },
@@ -169,6 +202,12 @@
             },
             "desktop": {
               "type": "boolean"
+            },
+            "desktop_app_platform": {
+              "enum": ["electron", "tauri", "qt", "flutter", "native", "none", "unknown"]
+            },
+            "cross_language_support": {
+              "enum": ["none", "partial", "full", "unknown"]
             }
           }
         },

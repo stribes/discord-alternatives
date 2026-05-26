@@ -19,6 +19,8 @@
       "threads": "advanced",
       "pinned_posts": true,
       "direct_messages": true,
+      "dm_groups": true,
+      "pings": true,
       "reactions": true,
       "embeds": true,
       "markdown": "advanced",
@@ -30,10 +32,15 @@
       "voice_calls": true,
       "video_calls": true,
       "screen_sharing": true,
+      "stage": true,
+      "voice_text_chat": true,
       "streaming": true,
       "noise_suppression": true,
       "file_sharing": "full",
-      "soundboard": true
+      "soundboard": true,
+      "activities_games": true,
+      "custom_ringtones": false,
+      "smart_video_loading_hls": false
     },
     "community": {
       "bots_plugins": "full",
@@ -42,12 +49,18 @@
       "custom_stickers": true,
       "polls": "advanced",
       "events": "advanced",
-      "collaboration_tools": "basic"
+      "collaboration_tools": "basic",
+      "import_from_discord": "none",
+      "discord_bridge_sync": "none",
+      "application_gate": true,
+      "automod": "advanced"
     },
     "platform": {
       "mobile": true,
       "web": true,
-      "desktop": true
+      "desktop": true,
+      "desktop_app_platform": "electron",
+      "cross_language_support": "full"
     },
     "architecture": {
       "federation": "none",
