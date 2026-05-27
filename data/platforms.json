@@ -290,13 +290,13 @@
         "data_harvesting_risk": "low",
         "security_history": "good",
         "kyc_required": "none",
-        "nsfw_support": "limited"
+        "nsfw_support": "full"
       },
       "core_chat": {
         "channels": "advanced",
         "channel_history": "full",
         "persistent_channel_order": true,
-        "threads": "none",
+        "threads": "basic",
         "pinned_posts": false,
         "direct_messages": true,
         "reactions": true,
@@ -312,7 +312,7 @@
         "screen_sharing": true,
         "streaming": true,
         "noise_suppression": false,
-        "file_sharing": "full",
+        "file_sharing": "limited",
         "soundboard": false
       },
       "community": {
@@ -320,7 +320,7 @@
         "plural_kit_support": "none",
         "custom_emotes": true,
         "custom_stickers": false,
-        "collaboration_tools": "none",
+        "collaboration_tools": "basic",
         "events": "none",
         "polls": "none"
       },
@@ -337,12 +337,12 @@
       },
       "adoption": {
         "userbase": "medium",
-        "performance": "high",
+        "performance": "medium",
         "consumer_relationship": "community-driven",
         "market_focus": "mixed"
       },
       "safety": {
-        "ai_safety": "unknown",
+        "ai_safety": "none",
         "safety_concerns": "low",
         "transparency": "high"
       }
